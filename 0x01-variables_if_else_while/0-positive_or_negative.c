@@ -3,7 +3,10 @@
 #include <stdio.h>
 
 /**
- *betty style doc for function main goes there 
+ *main - point of execution
+ *@void: no parameters accepted
+ *Tells you whether a number is negative, positive or zeroe
+ *Return: 0  Program executed successfully.
  */
 
 int main(void)
