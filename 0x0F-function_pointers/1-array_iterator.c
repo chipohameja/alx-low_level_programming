@@ -5,17 +5,18 @@
  * @array: Array to iterate
  * @size: Size of array to iterate
  * @action: Iterating callback function
- * 
+ *
  * Return: nothing
  */
 
-void array_iterator(int *array, size_t size, void (*action)(int)) {
-    unsigned int i = 0;
-    
-    while (i < size)
-    {
-        action(array[i]);
+void array_iterator(int *array, size_t size, void (*action)(int))
+{
+	unsigned int i = 0;
 
-        i++;
-    }
+	while (i < size)
+	{
+		action(array[i]);
+
+		i++;
+	}
 }
