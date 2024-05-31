@@ -17,8 +17,6 @@ void puts_half(char *str)
 
 	len++;
 
-	printf("Length of string is: %d\n", len);
-
 	if (len % 2 > 0)
 		i = (len  - 1) / 2;
 	else
